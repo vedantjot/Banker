@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:padding="20dp">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/homeTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicator="@color/teal_200"
+        android:layout_gravity="top">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homeTabAccounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accounts" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homeTabInvestments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investments" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homeTabBills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bills" />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homeViewpager">
+
+    </androidx.viewpager2.widget.ViewPager2>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53769437888",
+    "project_id": "banker-8526d",
+    "storage_bucket": "banker-8526d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53769437888:android:7f8c8626ba273ac7f46325",
+        "android_client_info": {
+          "package_name": "com.example.banker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53769437888-ocfkrsqimmch06o1l1ikoltp6f8flgd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmLRPE5o5ss0gAraV2ihqZYlQ4ulmFkGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53769437888-ocfkrsqimmch06o1l1ikoltp6f8flgd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
